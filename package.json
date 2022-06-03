@@ -1,0 +1,24 @@
+{
+  "name": "coutlootmongomonitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test1.js",
+    "start": "node ./app/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SameedAnsari/coutlootMongomonitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SameedAnsari/coutlootMongomonitor/issues"
+  },
+  "homepage": "https://github.com/SameedAnsari/coutlootMongomonitor#readme",
+  "dependencies": {
+    "elasticsearch": "^16.7.2",
+    "mongoose": "^5.10.0"
+  }
+}
