@@ -1,5 +1,6 @@
 const esClient = require("../models/elasticsearchClient");
 
+// Elastic search cruds
 let esCrudsServices = {
   deleteIndex: async (index) => {
     esClient.indices
